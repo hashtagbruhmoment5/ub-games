@@ -145,14 +145,14 @@ PokiSDK = function () {
     this.commercialBreak = function () {
         consoleLog("--fx--PokiSDK--commercialBreak--");
         return new Promise((resolve, reject) => {
-            loadJS("null.js", resolve);
+            loadJS("patch/js/null.js", resolve);
         });
     }
 
     this.rewardedBreak = function () {
         consoleLog("--fx--PokiSDK--rewardedBreak--");
         return new Promise((resolve, reject) => {
-            loadJS("null.js", resolve);
+            loadJS("patch/js/null.js", resolve);
         });
     }
 
